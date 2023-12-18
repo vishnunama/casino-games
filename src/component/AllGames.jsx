@@ -5,12 +5,12 @@ import { useNavigate } from "react-router-dom";
 
 const gamesData = [
   {
-    category: "collection-one",
+    category: "collection-three",
     name: "Jandi Munda games",
     image: "/images/jandimunda.webp",
   },
   {
-    category: "collection-two",
+    category: "collection-three",
     name: "Car Roulette games",
     image: "/images/download (1) (1).jpeg",
   },
@@ -21,17 +21,17 @@ const gamesData = [
   },
 
   {
-    category: "collection-two",
+    category: "collection-three",
     name: "Poker games",
     image: "/images/poker (1).jpeg",
   },
   {
-    category: "collection-one",
+    category: "collection-three",
     name: "Head Tail games",
     image: "/images/headtail (1).jpeg",
   },
   {
-    category: "collection-two",
+    category: "collection-three",
     name: "Jackpot games",
     image: "/images/777 (1).jpeg",
   },
@@ -46,25 +46,30 @@ const gamesData = [
     image: "/images/andarbhar (1).jpeg",
   },
   {
-    category: "collection-one",
+    category: "collection-three",
     name: "Bac Carat games",
     image: "/images/bascarat (1).jpeg",
   },
 
   {
-    category: "collection-two",
+    category: "collection-three",
     name: "Red Black games",
     image: "/images/redblack (1).jpeg",
   },
 
   {
-    category: "collection-three",
+    category: "collection-one",
+    name: "Praivate Table games",
+    image: "/images/privatetable (1).jpeg",
+  },
+  {
+    category: "collection-two",
     name: "Praivate Table games",
     image: "/images/privatetable (1).jpeg",
   },
 
   {
-    category: "collection-one",
+    category: "collection-three",
     name: "Jackpoat 3Patti  games",
     image: "/images/jackpoat3patti.jpeg",
   },
@@ -74,9 +79,14 @@ const gamesData = [
     name: "Ludo games",
     image: "/images/ludoall.jpeg",
   },
-
   {
     category: "collection-two",
+    name: "Ludo games",
+    image: "/images/ludoall.jpeg",
+  },
+
+  {
+    category: "collection-one",
     name: "3 patti games",
     image: "/images/unnamed.webp",
   },
@@ -93,7 +103,7 @@ const gamesData = [
     image: "/images/images (12) (1).jpeg",
   },
   {
-    category: "collection-one",
+    category: "collection-three",
     name: "call Break",
     image: "/images/download (4) (1).jpeg",
   },
@@ -103,12 +113,12 @@ const gamesData = [
     image: "/images/images (1) (1).jpeg",
   },
   {
-    category: "collection-one",
+    category: "collection-two",
     name: "Point Rummy",
     image: "/images/download (point).jpeg",
   },
   {
-    category: "collection-one",
+    category: "collection-two",
     name: "Pool Rummy",
     image: "/images/images (2) (1).jpeg",
   },
