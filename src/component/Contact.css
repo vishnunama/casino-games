@@ -20795,7 +20795,9 @@ body h6 {
 .footer-section .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-content .fm-item-widget .lab-inner .lab-content .rating i,
 .pageheader-section .breadcrumb li a,
 .common-filter-button-group li.is-checked {
-    color: #ff0052
+    color: white;
+    background-color: #384297;
+
 }
 
 .fore-zero .section-wrapper .zero-item,
@@ -21507,7 +21509,7 @@ ul li {
         background: rgba(255, 255, 255, .4);
         top: 0;
         right: 0;
-        display: block
+        /* display: block */
     }
 }
 
@@ -21525,7 +21527,7 @@ ul li {
         background: rgba(255, 255, 255, .4);
         top: 0;
         left: 0;
-        display: block
+        /* display: block */
     }
 }
 

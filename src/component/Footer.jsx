@@ -21,7 +21,7 @@ const Footer = () =>
                       <img src="/images/phoneicon.png" alt="Phone-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Phone Number : +91 345 678 912</span>
+                      <span>Phone Number :+917240650376</span>
                     </div>
                   </div>
                 </div>
@@ -45,7 +45,7 @@ const Footer = () =>
                       <img src="/images/03.png" alt="location-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Address : Jaipur , Rajashtan, India</span>
+                      <span>Address : DHANI BARALA, Jhunjhunu</span>
                     </div>
                   </div>
                 </div>

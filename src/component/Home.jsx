@@ -6,7 +6,10 @@ import Question from "./Question";
 import FreeSpin from "./FreeSpin";
 import GameReview from "./GameReview";
 import { FaAngleRight } from "react-icons/fa";
-const Home = () => {
+import { useNavigate } from "react-router-dom";
+const Home = () =>
+{
+  const navigate =useNavigate()
     return <div>
        <section className="banner" >
   <div className="container">
@@ -18,7 +21,7 @@ const Home = () => {
           <h2>Genuine Money Transaction</h2>
           <p>
 Welcome to our premier casino gaming platform! Dive into the excitement with our vast selection of 25 thrilling casino games. From classic favorites to modern twists, our website offers an immersive experience for every gaming enthusiast. Join us for a dynamic journey filled with entertainment, strategy, and the chance to win big!</p>
-          <a href="login.html" className="default-button"><span>join us today  <FaAngleRight /></span> </a>
+          <a onClick={()=>navigate('/Contact')} href="" className="default-button"><span>join us today  <FaAngleRight /></span> </a>
         </div>
       </div>
     </div>

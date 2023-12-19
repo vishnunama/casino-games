@@ -140,7 +140,7 @@ const AllGames = () => {
     <div>
       <section
         className="pageheader-section"
-        style={{ backgroundImage: "url(/images/bgpages.jpg)" }}
+        style={{ backgroundImage: "url(/images/1000_F_416254586_YnctPtejbIpnRuwdPK2wd559TpSm3duR-transformed-transformed.jpeg)" }}
       >
         <div className="container">
           <div className="section-wrapper text-center text-uppercase">
@@ -160,7 +160,7 @@ const AllGames = () => {
         <div className="container">
           <div className="section-wrapper">
           <ul className="collection-filter-button-group common-filter-button-group d-flex flex-wrap justify-content-center mb-5 text-uppercase">
-  <li
+  <li 
     className={activeFilter === "*" ? "is-checked" : ""}
     onClick={() => handleFilterClick("*")}
     data-filter="*"

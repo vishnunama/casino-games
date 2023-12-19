@@ -41,13 +41,13 @@ const Navbar = () => {
                       <FaPhone /> <span>+917240650376</span>
                     </li>
                     <li>
-                      <FaMapMarkerAlt /> Jaipur , Rajashtan, India
+                      <FaMapMarkerAlt />DHANI BARALA, Jhunjhunu
                     </li>
                   </ul>
                   <ul className="social-icons d-flex align-items-center">
                     <li>
                       <a
-                        href="https://www.facebook.com/metablocktechnologies"
+                        href=""
                         className="fb"
                       >
                         <FaFacebook />
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/metablocktechnologies1/"
+                        href=""
                         className="twitter"
                       >
                         <FaInstagram />
@@ -63,7 +63,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="https://web.telegram.org/k/#@metablocktechnologies"
+                        href=""
                         className="vimeo"
                       >
                         <FaTelegram />
@@ -71,7 +71,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/company/83544770/admin/feed/posts/"
+                        href=""
                         className="skype"
                       >
                         <FaLinkedin />

@@ -20795,7 +20795,7 @@ body h6 {
 .footer-section .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-content .fm-item-widget .lab-inner .lab-content .rating i,
 .pageheader-section .breadcrumb li a,
 .common-filter-button-group li.is-checked {
-    color: white !important;
+    /* color: white !important; */
 }
 
 .fore-zero .section-wrapper .zero-item,
@@ -21500,15 +21500,15 @@ ul li {
     transform: rotate(20deg)
 }
 
-@media(min-width: 576px) {
+ @media(min-width: 576px) {
     .common-filter-button-group li::after {
         width: 1px;
         height: calc(100% + 2px);
         background: rgba(255, 255, 255, .4);
         top: 0;
         right: 0;
-        display: block
-    }
+        display: block;
+     } 
 }
 
 .common-filter-button-group li:first-child::before {
@@ -21525,7 +21525,7 @@ ul li {
         background: rgba(255, 255, 255, .4);
         top: 0;
         left: 0;
-        display: block
+        display: none;
     }
 }
 
@@ -27620,16 +27620,18 @@ button.swiper-pagination-bullet {
 .collection-filter-button-group li {
     margin-right: 10px; /* Adjust the margin as needed */
     cursor: pointer;
+    /* background-color: red; */
+    /* gap: 100px; */
   }
   
-  .collection-filter-button-group li.is-checked {
+  /* .collection-filter-button-group li.is-checked {
     color: red;
     text-decoration: underline;
 
-  }
+  } */
  
 
   .collection-filter-button-group li:hover{
-   color: red;
+   color: #384297;
   }
     
