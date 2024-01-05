@@ -20695,7 +20695,7 @@ body h6 {
 .price-item .price-item-inner .price-bottom .purchase-btn,
 .comments .comment-list .comment .com-content .com-title .com-title-meta span,
 .video-icon i,
-.video-icon a,
+.video-icon iframe,
 .default-button,
 .header-bar span,
 .header-top-area .social-icons li a,
@@ -22500,7 +22500,7 @@ ul li {
 }
 
 .banner {
-     background-image: url(/public/images/casino102.jpeg);
+     background-image: url(/public/images/casino102.webp);
     background-size: cover;
     background-position: -80% 0 !important;
     padding-top: 250px;
@@ -22509,7 +22509,7 @@ ul li {
 
 @media(min-width: 768px) {
     .banner {
-        padding: 350px 0 330px
+        padding: 150px 0 330px
     }
 }
 

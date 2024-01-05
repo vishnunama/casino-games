@@ -22500,7 +22500,7 @@ ul li {
 }
 
 .banner {
-     background-image: url(/public/images/casino102.jpeg);
+     background-image: url(/public/images/casino102.webp);
     background-size: cover;
     background-position: -80% 0 !important;
     padding-top: 250px;
@@ -27614,5 +27614,16 @@ button.swiper-pagination-bullet {
 .swiper-container-coverflow .swiper-wrapper {
     -ms-perspective: 1200px
 }
+/* @media(min-width: 1004px) {
+    .spinner-image {
+            width: 70% !important;
+        }
+} */
+.spinner-image {
+    max-width: 85%;
+    margin-left: 15px;
+    width: 90% !important;
+}
+
 
 /*# sourceMappingURL=style.min.css.map */

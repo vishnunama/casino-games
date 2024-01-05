@@ -196,7 +196,7 @@ const Tournament = () => {
                     <div className="tunament__left">
                       <h5>All Rummy Tournaments</h5>
                     </div>
-                    <div className="tunament__right">
+                    {/* <div className="tunament__right">
                       <nav aria-label="Page navigation example">
                         <ul className="pagination mb-0 pb-0">
                           <li className="page-item">
@@ -230,7 +230,7 @@ const Tournament = () => {
                           </li>
                         </ul>
                       </nav>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -271,7 +271,7 @@ const Tournament = () => {
                     <div className="tunament__left">
                       <h5>All Rummy Tournaments</h5>
                     </div>
-                    <div className="tunament__right">
+                    {/* <div className="tunament__right">
                       <nav aria-label="Page navigation example">
                         <ul className="pagination mb-0 pb-0">
                           <li className="page-item">
@@ -305,7 +305,7 @@ const Tournament = () => {
                           </li>
                         </ul>
                       </nav>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -346,7 +346,7 @@ const Tournament = () => {
                     <div className="tunament__left">
                       <h5>All Rummy Tournaments</h5>
                     </div>
-                    <div className="tunament__right">
+                    {/* <div className="tunament__right">
                       <nav aria-label="Page navigation example">
                         <ul className="pagination mb-0 pb-0">
                           <li className="page-item">
@@ -380,7 +380,7 @@ const Tournament = () => {
                           </li>
                         </ul>
                       </nav>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -421,7 +421,7 @@ const Tournament = () => {
                     <div className="tunament__left">
                       <h5>All Rummy Tournaments</h5>
                     </div>
-                    <div className="tunament__right">
+                    {/* <div className="tunament__right">
                       <nav aria-label="Page navigation example">
                         <ul className="pagination mb-0 pb-0">
                           <li className="page-item">
@@ -455,7 +455,7 @@ const Tournament = () => {
                           </li>
                         </ul>
                       </nav>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import SwipeableTemporaryDrawer from "./resnav";
+import SwipeableTemporaryDrawer2 from "./resnav2";
 import {
   FaFacebookMessenger,
   FaTwitter,
@@ -13,6 +15,7 @@ import {
   FaInstagram,
   FaTelegram,
   FaLinkedin,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 // import { IoIosInformationCircle } from 'react-icons/io';
@@ -21,13 +24,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="header-section">
+      <header style={{height:"110px"}}  className="header-section">
         <div className="container">
-          <div className="header-holder d-flex flex-wrap justify-content-between align-items-center">
-            <div className="brand-logo d-none d-lg-inline-block">
+          <div style={{display:"flex",marginTop:"-10px",justifyContent:"space-around",alignItems:"center"}} >
+            <div   className="brand-logo d-none d-lg-inline-block">
               <div className="logo">
                <a style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
-                  <img src="images/WhatsApp_Image_2023-12-18_at_16.24.07_93e390b3-removebg-preview.png" style={{width:"150px"}} alt="logo" />
+                  <img src="images/logo (123).webp" style={{width:"120px",marginBottom:"35px"}} alt="logo" />
                 </a> 
               
                 
@@ -35,19 +38,22 @@ const Navbar = () => {
             </div>
             <div className="header-menu-part">
               <div className="header-top">
-                <div className="header-top-area">
-                  <ul className="left">
+                <div  className="header-top-area">
+                  <ul  className="left">
                     <li>
-                      <FaPhone /> <span>+917240650376</span>
+                      <FaPhone /> <a href="tel:+91 8107196932" target="blank">+917240650376</a>
                     </li>
                     <li>
-                      <FaMapMarkerAlt />DHANI BARALA, Jhunjhunu
+                      <FaMapMarkerAlt />
+                <a  href="https://www.google.com/maps/place/Tamanna+Apartment/@26.8949515,75.7489926,15.17z/data=!4m6!3m5!1s0x396db566ba42c1ed:0xce00513b5fd69b04!8m2!3d26.8942671!4d75.7655693!16s%2Fg%2F11h39zw_sb?entry=ttu" target='blank'>jaipur,Rajasthan</a>
+
                     </li>
                   </ul>
                   <ul className="social-icons d-flex align-items-center">
                     <li>
                       <a
-                        href=""
+                        href="https://www.facebook.com/metablocktechnologies"
+                        target="blank"
                         className="fb"
                       >
                         <FaFacebook />
@@ -55,7 +61,8 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href=""
+                        href="https://www.instagram.com/"
+                        target="blank"
                         className="twitter"
                       >
                         <FaInstagram />
@@ -63,15 +70,18 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href=""
+                        href="https://web.telegram.org/k/"
+                        target="blank"
+
                         className="vimeo"
                       >
-                        <FaTelegram />
+                        <FaWhatsapp />
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
+                        href="https://www.linkedin.com/company/metablocktechnologies/mycompany/"
+                        target="blank"
                         className="skype"
                       >
                         <FaLinkedin />
@@ -85,15 +95,15 @@ const Navbar = () => {
                   </ul>
                 </div>
               </div>
-              <div className="header-bottom">
+              <div style={{height:"105px",lineHeight:"1px"}} className="header-bottom">
                 <div className="header-wrapper justify-content-lg-end">
                   <div className="mobile-logo d-lg-none">
                     <a href="index.html">
-                      <img src="images/WhatsApp_Image_2023-12-18_at_16.24.07_93e390b3-removebg-preview.png" alt="logo" />
+                      <img src="images/logo (123).webp" alt="logo" />
                     </a>
                   </div>
-                  <div className="menu-area">
-                    <ul className="menu">
+                  <div  className="menu-area">
+                    <ul  className="menu">
                       <li>
                         <a
                           style={{ cursor: "pointer" }}
@@ -136,14 +146,13 @@ const Navbar = () => {
                       </li>
                     </ul>
 
-                    <div className="header-bar d-lg-none">
-                      <span />
-                      <span />
-                      <span />
-                    </div>
-                    <div className="ellepsis-bar d-lg-none">
-                      <i className="icofont-info-square" />
-                    </div>
+                    <li className="ResNav">
+                        <SwipeableTemporaryDrawer/>
+                      </li>
+                      <li className="ResNav2">
+                        <SwipeableTemporaryDrawer2/>
+                      </li>
+                   
                   </div>
                 </div>
               </div>

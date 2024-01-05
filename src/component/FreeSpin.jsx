@@ -8,22 +8,22 @@ const FreeSpin = () => {
     <div>
       <div
         className="game game-style3 overflow-hidden"
-        style={{ backgroundImage: "url(assets/images/game/bg.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/game/bg.webp)" }}
       >
         <div className="container">
           <div className="section-wrapper">
             <div className="row justify-content-center g-4 align-items-center">
               <div className="col-lg-6 col-12">
                 <div className="game__thumb">
-                  <img
-                    style={{ width: "700px" }}
-                    src="/images/240_F_622262374_m7YPwdMca2b853X3sSjeL7qy5TZfkDpB-removebg-preview.png"
+                  <img className="spinner-image"
+                   
+                    src="/images/spin_1.webp"
                     alt="game-thumb"
                   />
                 </div>
               </div>
               <div className="col-lg-6 col-12">
-                <div className="game__content">
+                <div style={{alignItems:"center"}} className="game__content">
                   <div className="section-header text-start">
                     <h2>UNLOCK FREE SPIN</h2>
                     <p>
@@ -42,11 +42,10 @@ const FreeSpin = () => {
                       className="default-button reverse-effect"
                       onClick={() => {
                         navigate("/AllGames");
-                        window.scrollTo(0, 0);
                       }}
                     >
                       <span>
-                        Browse All Games <FaAngleRight />
+                        Browse All Games <FaAngleRight  />
                       </span>
                     </a>
                   </div>

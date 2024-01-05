@@ -7,21 +7,22 @@ const Footer = () =>
   const navigate = useNavigate()
   return (
     <div>
-      <footer
+      <footer 
         className="footer-section"
-        style={{ backgroundImage: "url(assets/images/footer/bg.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/footer/bg.webp)"}}
       >
-        <div className="footer-top">
+        <div style={{paddingBottom:"1px"}} className="footer-top">
           <div className="container">
-            <div className="row g-3 justify-content-center g-lg-0">
+            <div  className="row g-3 justify-content-center g-lg-0">
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
                     <div className="lab-thumb">
-                      <img src="/images/phoneicon.png" alt="Phone-icon" />
+                      <img src="/images/phoneicon.webp" alt="Phone-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Phone Number :+917240650376</span>
+                      <span> <a href="tel:+91 98282 84421">Phone Number  +91 98282 84421</a>
+</span>
                     </div>
                   </div>
                 </div>
@@ -30,10 +31,10 @@ const Footer = () =>
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
                     <div className="lab-thumb">
-                      <img src="/images/02.png" alt="email-icon" />
+                      <img src="/images/02_1.webp" alt="email-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Email : raahibet@gmail.com</span>
+                      <span>Email : metablock@gmail.com</span>
                     </div>
                   </div>
                 </div>
@@ -42,10 +43,10 @@ const Footer = () =>
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
                     <div className="lab-thumb">
-                      <img src="/images/03.png" alt="location-icon" />
+                      <img src="/images/03_1.webp" alt="location-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Address : DHANI BARALA, Jhunjhunu</span>
+                      <span>Address : Jaipur Rajashtan India</span>
                     </div>
                   </div>
                 </div>
@@ -53,14 +54,14 @@ const Footer = () =>
             </div>
           </div>
         </div>
-        <div className="footer-middle padding-top padding-bottom">
+        <div style={{paddingTop:"8%"}} className="footer-middle ">
           <div className="container">
             <div className="row padding-lg-top">
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="footer-middle-item-wrapper">
                   <div className="footer-middle-item mb-lg-0">
                     <div className="fm-item-title mb-4">
-                      <img style={{width:"250px"}} src="images/WhatsApp_Image_2023-12-18_at_16.24.07_93e390b3-removebg-preview.png" alt="logo" />
+                      <img style={{width:"250px"}} src="images/logo (123).webp" alt="logo" />
                     </div>
                     <div className="fm-item-content">
                       <p className="mb-4">
@@ -92,7 +93,7 @@ const Footer = () =>
                             <a href="#">
                               {" "}
                               <img
-                                src="/images/download (2).jpeg"
+                                src="/images/download (2).webp"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
@@ -118,7 +119,7 @@ const Footer = () =>
                           <div className="lab-thumb">
                             <a href="#">
                               <img
-                                src="/images/download (1).jpeg"
+                                src="/images/download (1).webp"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
@@ -144,7 +145,7 @@ const Footer = () =>
                           <div className="lab-thumb">
                             <a href="#">
                               <img
-                                src="/images/images (13).jpeg"
+                                src="/images/images (13).webp"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
@@ -171,7 +172,7 @@ const Footer = () =>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="footer-middle-item-wrapper">
-                  <div className="footer-middle-item-3 mb-lg-0">
+                  <div >
                     <div className="fm-item-title">
                       <h4>Our All Games</h4>
                     </div>
@@ -199,8 +200,8 @@ const Footer = () =>
                             placeholder="Your Email"
                           />
                         </div> */}
-                        <button  className="default-button">
-                          <span onClick={()=>navigate('/AllGames')}>
+                        <button style={{marginTop:"15px"}}   className="default-button">
+                          <span   onClick={()=>navigate('/AllGames')}>
                            ALL Games <FaAngleRight />
                           </span>
                         </button>
@@ -212,28 +213,33 @@ const Footer = () =>
             </div>
           </div>
         </div>
-        <div className="footer-bottom">
-          <div className="container">
-            <div className="row">
-              <div className="col-12">
-                <div className="footer-bottom-content text-center d-flex justify-content-between">
-                  <p>
-                    ©2023 <a href="index.html">Casina</a> - All Rights Reserved.{" "}
-                  </p>
-                  <ul className="d-flex gap-2">
-                    <li><Link to="terms_and_conditions">Terms And Conditions</Link></li>
-                    <li><Link to="Contact">Contact us</Link></li>
-                    <li><Link to="privacy_policy">Privacy Policy</Link></li>
-                    <li><Link to="Refund_and_cancellation_policy">Refund And Cancellation</Link></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div className="footer-bottom" style={{ maxWidth: "100%", margin: "0 auto" }}>
+  <div className="container">
+    <div className="row">
+      <div className="col-12">
+        <div className="footer-bottom-content text-center d-flex flex-column align-items-center">
+          <p>
+            ©2023 <a href="index.html">Casina</a> - All Rights Reserved.
+          </p>
+          <ul className="footer-container" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "2rem" }}>
+            <li><Link to="terms_and_conditions">Terms And Conditions</Link></li>
+            <li><Link to="Contact">Contact us</Link></li>
+            <li><Link to="privacy_policy">Privacy Policy</Link></li>
+            <li><Link to="Refund_and_cancellation_policy">Refund And Cancellation</Link></li>
+          </ul>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </footer>
     </div>
   );
 };
 
 export default Footer;
+
+
+
+  

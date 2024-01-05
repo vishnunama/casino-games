@@ -22500,7 +22500,7 @@ ul li {
 }
 
 .banner {
-     background-image: url(/public/images/casino102.jpeg);
+     background-image: url(/public/images/casino102.webp);
     background-size: cover;
     background-position: -80% 0 !important;
     padding-top: 250px;
@@ -27616,3 +27616,78 @@ button.swiper-pagination-bullet {
 }
 
 /*# sourceMappingURL=style.min.css.map */
+
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+.vdoCntLstCount{
+    font-size: 30px;
+    text-align: center;
+    
+   
+   
+    
+}
+.vdoCntLst{
+background-color: #010023;
+/* width: 10%; */
+
+}
+.vdoCntLstTlt{
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .helloworld {
+        display: flex;
+        width: 50%;
+       
+    }
+}
+
+.helloworld {
+    display: flex;
+    
+
+}
+
+@media (max-width: 767px) {
+    .responsive-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive-flex-in {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+   .vdoCntLst{
+   height: 130px;
+   width: 130px;
+   font-size: 1px;
+
+
+   }
+
+    
+}
+
+.counter--in {
+    /* background-position: 50%; */
+    background-size: cover;
+    border-radius: 6px;
+    box-shadow: 0 5px 35px 0 #695aa63b;
+    /* margin-top: -70px; */
+    padding-left: 20px;
+    
+    padding-right:20px ;
+}
+.vdoCntLstTlt{
+    font-size: 13px;
+}

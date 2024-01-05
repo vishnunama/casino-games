@@ -10,7 +10,7 @@ const About = () => {
     <div>
       <section
         className="pageheader-section"
-        style={{ backgroundImage: "url(/images/1000_F_416254586_YnctPtejbIpnRuwdPK2wd559TpSm3duR-transformed-transformed.jpeg)" }}
+        style={{ backgroundImage: "url(/images/1000_F_416254586_YnctPtejbIpnRuwdPK2wd559TpSm3duR-transformed-transformed.webp)" }}
       >
         <div className="container">
           <div className="section-wrapper text-center text-uppercase">
@@ -39,20 +39,21 @@ const About = () => {
           <div className="section-wrapper padding-top">
             <div className="row g-4">
               <div className="col-lg-6">
-                <div className="about-image position-relative">
-                  <img
-                    style={{ width: "600px", height: "70vh" }}
-                    src="/images/trophy_cleanup.jpg"
-                    alt="about-image"
-                    className="w-100"
-                  />
-                  <div className="video-icon">
-                    <a data-rel="lightcase">
-                      <FaPlay style={{ color: "red" }} />
-                      <span className="pluse" />
-                    </a>
-                  </div>
+                <div className="col-lg-6 col-12">
+                <div className="testimonial__thumb position-relative">
+                  {/* <img style={{width:"650px"}}  src="/images/trophy_cleanup.jpg" alt="testimonial" /> */}
+                  <iframe style={{maxWidth:"100%"}} className="car-video-in" src="https://www.youtube.com/embed/g5eQgEuiFC8" data-rel="lightcase">
+                   
+                    <span className="pluse" />
+                  </iframe>
+                  {/* <div className="video-icon">
+                <a href="https://www.youtube.com/embed/g5eQgEuiFC8" data-rel="lightcase">
+                <FaPlay style={{color:"red" }} />
+                  <span className="pluse" />
+                </a>
+              </div> */}
                 </div>
+              </div>
               </div>
               <div className="col-lg-6 col-md-10">
                 <div className="about-wrapper">
@@ -68,7 +69,7 @@ const About = () => {
                     <ul className="about-list">
                       <li className="about-item d-flex flex-wrap">
                         <div className="about-item-thumb">
-                          <img src="/images/icon-1.png" alt="Icon" />
+                          <img src="/images/icon-1.webp" alt="Icon" />
                         </div>
                         <div className="about-item-content">
                           <h5>103k Community Earning</h5>
@@ -80,7 +81,7 @@ const About = () => {
                       </li>
                       <li className="about-item d-flex flex-wrap">
                         <div className="about-item-thumb">
-                          <img src="/images/icon-2.png" alt="Icon" />
+                          <img src="/images/icon-2.webp" alt="Icon" />
                         </div>
                         <div className="about-item-content">
                           <h5>34m+ Registered Players</h5>
@@ -92,7 +93,7 @@ const About = () => {
                       </li>
                       <li className="about-item d-flex flex-wrap">
                         <div className="about-item-thumb">
-                          <img src="/images/icon-3.png" alt="Icon" />
+                          <img src="/images/icon-3.webp" alt="Icon" />
                         </div>
                         <div className="about-item-content">
                           <h5>240k Streams Complete</h5>

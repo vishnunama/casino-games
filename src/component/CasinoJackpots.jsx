@@ -8,236 +8,31 @@ const CasinoJackpots = () => {
   return (
     <div>
       <div
-        className="jaqport padding-top padding-bottom"
-        style={{ backgroundImage: "url(assets/images/jaqport/jaqport-bg.jpg)" }}
+        className="jaqport"
+        style={{ backgroundImage: "url(assets/images/jaqport/jaqport-bg.webp)", paddingTop:"70px" }}
       >
-        <div className="container">
-          <div className="section-header">
-            <h2>CASINO JACKPOTS</h2>
-            <p>
-              At Modeltheme, we show only the best websites and portfolios built
-              completely with passion, simplicity and creativity !
-            </p>
-          </div>
+        <div  className="container">
+          
           <div className="section-wrapper">
-            <div className="row">
-              <div className="col-lg-4 col-12">
-                <div className="jaqport__left">
-                  <div className="jaqport__title">
-                    <div className="jaqport__title-title">
-                      <h4>top winners list</h4>
-                    </div>
-                    <div className="jaqport__title-button">
-                      <a className="default-button">
-                        <span>
-                          View All <FaAngleRight />
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="jaqport__body">
-                    <ul>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>1.Christopher</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/02.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>2.Mark</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/04.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>3.Craigr</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/03.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>4.Philip</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/08.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>5.Jimmy</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/02.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>6.Arthur</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/06.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>7.Jaime</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/03.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>8.Perry</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/08.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>9.Harold</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/03.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>10.Jerry</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/04.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>11.Shawn</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/02.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li>
-                      {/* <li className="jaqport__gamelist">
-                        <div className="jaqport__gamelist-left">
-                          <p>12.Walter</p>
-                        </div>
-                        <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/06.jpg"
-                            alt="jaqport-thumb"
-                            className="rounded-circle"
-                          />
-                        </div>
-                        <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
-                        </div>
-                      </li> */}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-8 col-12">
-                <div className="jaqport__right">
-                  <div className="jaqport__top">
-                    <div className="jaqport__title">
-                      <div className="jaqport__title-title">
+            <div  className="">
+              
+              <div >
+                <div className="jaqport__right mx-auto">
+                  <div   className="jaqport__top">
+                    <div  className="jaqport__title">
+                      <div  className="jaqport__title-title">
                         <h4>Skills Games</h4>
                       </div>
                    
                     </div>
-                    <div className="jaqport__body">
-                      <div className="row g-4 justify-content-center">
+                    <div >
+                      <div  className="row g-4 justify-content-center">
                         <div className="col-lg-4 col-sm-6 col-12">
                           <div className="game__item item-layer">
                             <div className="game__inner text-center p-0">
                               <div className="game__thumb mb-0">
                                 <img
-                                  src="/images/images (4).jpeg"
+                                  src="/images/_44022881-2484-420b-8084-6ea647b20173.webp"
                                   alt="game-img"
                                   className="rounded-3 w-100"
                                 />
@@ -259,7 +54,7 @@ const CasinoJackpots = () => {
                             <div className="game__inner text-center p-0">
                               <div className="game__thumb mb-0">
                                 <img
-                                  src="/images/images (6).jpeg"
+                                  src="/images/_6c574ce7-3689-4486-a77a-4d940b8f2f76.webp"
                                   alt="game-img"
                                   className="rounded-3 w-100"
                                 />
@@ -281,7 +76,7 @@ const CasinoJackpots = () => {
                             <div className="game__inner text-center p-0">
                               <div className="game__thumb mb-0">
                                 <img
-                                  src="/images/images (7).jpeg"
+                                  src="/images/_4e9749a8-10b1-4513-8f37-3b17d8a0eb05.webp"
                                   alt="game-img"
                                   className="rounded-3 w-100"
                                 />
@@ -306,7 +101,7 @@ const CasinoJackpots = () => {
                       <div className="jaqport__title-title">
                         <h4>RUNNING JACKPOTS</h4>
                       </div>
-                      <div className="jaqport__title-button">
+                      {/* <div className="jaqport__title-button">
                         <a
                           className="default-button reverse-effect"
                           onClick={() => {
@@ -318,7 +113,7 @@ const CasinoJackpots = () => {
                             Browse All Games <FaAngleRight />
                           </span>
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="jaqport__body">
                       <div className="row g-4 justify-content-center">
@@ -327,7 +122,7 @@ const CasinoJackpots = () => {
                             <div className="game__inner text-center p-0">
                               <div className="game__thumb mb-0">
                                 <img
-                                  src="/images/images (8).jpeg"
+                                  src="/images/logo for a poker w poker chips playing cards.webp"
                                   alt="game-img"
                                   className="rounded-3 w-100"
                                 />
@@ -349,7 +144,7 @@ const CasinoJackpots = () => {
                             <div className="game__inner text-center p-0">
                               <div className="game__thumb mb-0">
                                 <img
-                                  src="/images/images (9).jpeg"
+                                  src="/images/logo for a poker w poker chips playing cards (1).webp"
                                   alt="game-img"
                                   className="rounded-3 w-100"
                                 />
@@ -371,7 +166,7 @@ const CasinoJackpots = () => {
                             <div className="game__inner text-center p-0">
                               <div className="game__thumb mb-0">
                                 <img
-                                  src="/images/images (10).jpeg"
+                                  src="/images/logo for a poker w poker chips playing cards (2).webp"
                                   alt="game-img"
                                   className="rounded-3 w-100"
                                 />
@@ -397,6 +192,172 @@ const CasinoJackpots = () => {
           </div>
         </div>
       </div>
+       <section style={{paddingTop:"70px"}} >
+        <div className="container">
+          <div className="section-header">
+            <h2>Gaming Features</h2>
+            <p>
+              At Modeltheme, we show only the best websites and portfolios built
+              completely with passion, simplicity and creativity !
+            </p>
+          </div>
+          <div className="section-wrapper game game-style2">
+            <div className="row g-4 justify-content-center">
+              <div className="col-lg-6 col-12">
+                <div className="game__item item-layer">
+                  <div className="game__inner text-center">
+                    <div className="game__thumb">
+                      <img className="image-container-in"src="/images/_4e0ea09a-df3c-403f-b861-514acd3b5a97.webp" alt="game-img" />
+                    </div>
+                    <div className="game__content">
+                      <h4 >
+                        <a style={{ color: "#ff0052" }}>PAYMENT LIMITATION</a>{" "}
+                      </h4>
+                      <p>
+                        Payment limitations refer to the constraints or restrictions imposed on financial transactions, or comply with regulatory requirements.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="game__item item-layer">
+                  <div className="game__inner text-center">
+                    <div className="game__thumb">
+                      <img className="image-container-in"  src="/images/_46cf31a1-6862-4258-8f71-5e4bce44108c.webp" alt="game-img" />
+                    </div>
+                    <div className="game__content">
+                      <h4 >
+                        <a style={{ color: "#ff0052" }}>Great Solutions</a>{" "}
+                      </h4>
+                      <p>
+                        Great solutions transcend problems, offering innovative and effective resolutions to challenges.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="game__item item-layer">
+                  <div className="game__inner text-center">
+                    <div className="game__thumb">
+                      <img className="image-container-in" src="/images/_9567ce55-03b8-48cc-a8db-5a56beeea91c.webp" alt="game-img" />
+                    </div>
+                    <div className="game__content">
+                      <h4 >
+                        <a style={{ color: "#ff0052" }} >Support in Person</a>{" "}
+                      </h4>
+                      <p>
+                       Support in person provides personalized assistance and direct engagement, fostering a tangible and responsive connection to address needs or concerns.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="game__item item-layer">
+                  <div className="game__inner text-center">
+                    <div className="game__thumb">
+                      <img className="image-container-in" src="/images/_d880da64-c7e5-40b1-af57-208a897a4aec.webp" alt="game-img" />
+                    </div>
+                    <div className="game__content">
+                      <h4>
+                        <a style={{ color: "#ff0052" }}>Daily Challenges </a>{" "}
+                      </h4>
+                      <p>
+                        Daily challenges present opportunities for growth and learning, while rewards celebrate the persistence and achievements encountered on the journey.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="game__item item-layer">
+                  <div className="game__inner text-center">
+                    <div className="game__thumb">
+                      <img className="image-container-in" src="/images/_bd6afd2c-a5e3-4fcd-93de-1f20c6bebe13.webp" alt="game-img" />
+                    </div>
+                    <div className="game__content">
+                      <h4 >
+                        <a style={{ color: "#ff0052" }} >Progressive Jackpots
+</a>{" "}
+                      </h4>
+                      <p>
+Progressive jackpots continuously grow, accumulating larger rewards over time, creating exciting opportunities for significant winnings in games and activities.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="game__item item-layer">
+                  <div className="game__inner text-center">
+                    <div className="game__thumb">
+                      <img className="image-container-in" src="/images/skillgames1.webp" alt="game-img" />
+                    </div>
+                    <div className="game__content">
+                      <h4 >
+                        <a style={{ color: "#ff0052" }}>Chat and Social Integration
+</a>{" "}
+                      </h4>
+                      <p>
+Chat and social  fostering interactive and engaging experiences  and social elements within platforms and applications.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6 col-12">
+                <div className="game__item item-layer">
+                  <div className="game__inner text-center">
+                    <div className="game__thumb">
+                      <img className="image-container-in" src="/images/_e7c63633-4ecd-4265-8ea3-b49f70f52a1a.webp" alt="game-img" />
+                    </div>
+                    <div className="game__content">
+                      <h4 >
+                        <a style={{ color: "#ff0052" }}>Tournaments and Leaderboards
+</a>{" "}
+                      </h4>
+                      <p>
+ bringing a dynamic edge to activities by showcasing player rankings and fostering a spirited environment for participants to strive for excellence.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="game__item item-layer">
+                  <div className="game__inner text-center">
+                    <div className="game__thumb">
+                      <img className="image-container-in" src="/images/_b6d8c4c3-c89b-4fd7-a932-940b5d07026b.webp" alt="game-img" />
+                    </div>
+                    <div className="game__content">
+                      <h4 >
+                        <a style={{ color: "#ff0052" }} >
+                          Multiplayer Gameplay
+                        </a>{" "}
+                      </h4>
+                      <p>
+                        Real-time multiplayer gameplay offers an immersive and dynamic experience, enhancing the excitement and social interaction in gaming environments.
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+              <div className=" text-center">
+      <a className="default-button reverse-effect" onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}>
+  <span>Browse All Games <FaAngleRight /></span>
+</a>
+
+        
+      </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* <section className="collection-section padding-top padding-bottom">
         <div className="container">
           <div className="section-header">
@@ -475,7 +436,7 @@ const CasinoJackpots = () => {
           </div>
         </div>
       </section> */}
-     <section className="collection-section padding-top padding-bottom">
+     {/* <section className="collection-section padding-top padding-bottom">
         <div className="container">
           <div className="section-header">
             <h2>Gaming Features</h2>
@@ -639,7 +600,7 @@ const CasinoJackpots = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
      
     </div>
   );

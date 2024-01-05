@@ -20414,7 +20414,7 @@ body ul {
 .common-filter-button-group li,
 .item-layer,
 .counter__area {
-    position: relative
+    position: relative;
 }
 
 .shop-cart .section-wrapper .cart-bottom .shiping-box .calculate-shiping .outline-select .select-icon,
@@ -20998,7 +20998,7 @@ ul li {
 .form-message.success,
 .comment-respond,
 .comments {
-    margin-top: 30px
+    margin-bottom: 100px;
 }
 
 .header-bar,
@@ -21280,7 +21280,7 @@ ul li {
 
 @media(min-width: 992px) {
     .padding-lg-top {
-        padding-top: 115px
+        /* padding-top: 115px */
     }
 }
 
@@ -21290,9 +21290,18 @@ ul li {
 
 @media(min-width: 992px) {
     .padding-bottom {
-        padding-bottom: 120px
+    padding-top: 10px;
     }
+        .row.padding-lg-top {
+            padding-top: 40px;
+        }
 }
+@media (max-width: 1092px){
+ .padding-bottom {
+    padding-bottom: 10px;
+  }}
+
+ 
 
 .bg-attachment {
     background-attachment: fixed
@@ -22502,7 +22511,7 @@ ul li {
 }
 
 .banner {
-     background-image: url(/public/images/casino102.jpeg);
+     background-image: url(/public/images/casino102.webp);
     background-size: cover;
     background-position: -80% 0 !important;
     padding-top: 250px;
@@ -22765,7 +22774,7 @@ ul li {
 
 .footer-section .footer-middle {
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 
 .footer-section .footer-middle .footer-middle-item-wrapper {
@@ -23065,7 +23074,7 @@ button {
 }
 
 .game-style3 {
-    padding: 60px 0;
+    padding: 1px 0;
     background-size: cover
 }
 
@@ -27617,5 +27626,20 @@ button.swiper-pagination-bullet {
 .swiper-container-coverflow .swiper-wrapper {
     -ms-perspective: 1200px
 }
+@media(max-width: 575px) {
+    .footer-container {
+        margin-top: 50px;
+        line-height: 5px;
+        flex-direction: column;
+    }
+}
+@media(max-width: 392px) {
+    .footer-middle{
+        padding: 1px;
+    }
+}
+
+
+
 
 /*# sourceMappingURL=style.min.css.map */

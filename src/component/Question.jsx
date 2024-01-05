@@ -31,14 +31,14 @@ const Question = () => {
   };
   return (
     <div>
-      <section className="faq padding-top padding-bottom">
+      <section style={{paddingTop:"7px"}} className="faq ">
         <div className="container">
           <div className="row justify-content-center flex-row-reverse">
             <div className="col-lg-6 col-12">
               <div className="faq-right-part">
                 <div className="faq-thumb">
-                  <img 
-                    src="/images/casino15-removebg-preview.png"
+                  <img  style={{marginTop:"30px"}}
+                    src="/images/_9b3c2b27-42d6-4e21-8327-9941abe14802-removebg-preview.webp"
                     alt="faq-thumb"
                   />
                 </div>

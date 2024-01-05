@@ -1,0 +1,314 @@
+.popup-form-heading{
+    line-height: 10px;
+}
+
+.popup-form-heading h1{
+color: white;
+font-size: 45px;
+}
+
+.popup-form-heading h3{
+    color: white;
+    }
+
+
+    .main-form-popup{
+        display: flex ;
+        flex-direction: row;
+        gap: 40px;
+
+    }
+
+    /* .rounded-button{
+        background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 0;
+    text-transform: capitalize;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    } */
+
+    /* .rounded-button:nth-child(2) {
+        transform: rotateX(0deg);
+        transform-origin: 50% 50% -20px;
+    } */
+
+    .main-form-contact-div{
+        color: white;
+    }
+
+    .contact-popup-form-div{
+        display: flex;
+        list-style: none;
+        gap: 40px;
+    }
+   
+    .contact-popup-form-div li{
+        text-align: center;
+        display: flex;
+    color: white;
+    }
+
+    .contact-popup-form-div li p{
+        padding: 5px;
+    }
+
+    .main-popup-form-inputs input{
+        background-color: #202020;
+        width: 200px;
+        height: 50px;
+        border: transparent;
+        padding: 0px 10px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .main-popup-form-inputs{
+display: flex;
+gap: 20px;
+    }
+
+
+    .main-popup-form-inputs1 input{
+        background-color: #202020;
+        width: 200px;
+        height: 50px;
+        border: transparent;
+        padding: 0px 10px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .main-popup-form-inputs1{
+display: flex;
+gap: 20px;
+margin-top: 20px;
+
+    }
+
+
+    .main-popup-form-textera{
+margin-top: 20px;
+
+    }
+
+    .main-popup-form-textera textarea{
+        background-color: #202020;
+        border: transparent;
+        padding: 10px 15px;
+        border-radius: 5px ;
+        color: white;
+    }
+
+    .form-button-div{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .form-button-div button{
+       width: 140px;
+       height: 40px;
+       border-radius: 10px;
+       background-color: #8650FF;
+       color: white;
+       font-size: 23px;
+    }
+
+
+    .img-div img{
+        width: 400px;
+    }
+
+
+
+
+    @media (max-width:950px) {
+
+       
+        .img-div{
+            display: none;
+        }
+     
+    }
+
+    @media (max-width:566px) {
+
+       
+        .img-div{
+            display: none;
+        }
+
+        .main-form-popup{
+            width: 400px;
+            /* overflow-y: scroll; */
+        }
+
+        .main-popup-form-inputs1{
+        flex-direction: column;
+            
+            
+                }
+
+                .main-popup-form-inputs{
+                    flex-direction: column;
+                        
+                        
+                            }
+                            .main-popup-form-inputs input{
+                                width: 372px;
+                            }
+
+                            .main-popup-form-inputs1 input{
+                                width: 372px;
+                            }
+
+                            .main-popup-form-textera textarea{
+                                width: 372px;
+                            }
+
+                            .popup-form-heading h3 {
+                                width: 400px;
+                                line-height: 28px;
+                                color: white;
+                            }
+                            .popup-form-heading h1 {
+                                color: white;
+                                font-size: 50px;
+                            }
+                        
+                        
+                            .main-form-contact-div {
+                                font-size: 25px;
+                                width: 379px;
+                                line-height: 32px;
+                                color: white;
+                            }
+                        
+                            .contact-popup-form-div {
+                                display: flex;
+                                flex-direction: column;
+                                list-style: none;
+                                gap: 0px;
+                                font-size: 20px;
+                                /* line-height: 10px; */
+                            }
+     
+    }
+
+
+    @media (max-width:488px){
+        .img-div{
+            display: none;
+        }
+
+        .main-form-popup{
+            width: 345px;
+            /* overflow-y: scroll; */
+        }
+
+        .main-popup-form-inputs input{
+            width: 322px;
+        }
+
+        .main-popup-form-inputs1 input{
+            width: 322px;
+        }
+
+        .main-popup-form-textera textarea{
+            width: 322px;
+        }
+        .form-button-div{
+            margin-top: 20px;
+            display: flex;
+            /* justify-content: center; */
+            margin-right: 50px;
+        }
+    
+        .popup-form-heading h3 {
+            width: 339px;
+            line-height: 28px;
+            color: white;
+        }
+        .popup-form-heading h1 {
+            color: white;
+            font-size: 44px;
+        }
+    
+    
+        .main-form-contact-div {
+            font-size: 20px;
+            width: 350px;
+            line-height: 32px;
+            color: white;
+        }
+    
+        .contact-popup-form-div {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            gap: 0px;
+            /* line-height: 10px; */
+        }
+    }
+
+
+    @media (max-width:416px){
+        .img-div{
+            display: none;
+        }
+
+        .main-form-popup{
+            width: 210px;
+            /* overflow-y: scroll; */
+        }
+
+        .main-popup-form-inputs input{
+            width: 200px;
+        }
+
+        .main-popup-form-inputs1 input{
+            width: 200px;
+        }
+
+        .main-popup-form-textera textarea{
+            width: 200px
+    }
+    .form-button-div{
+        margin-top: 20px;
+        display: flex;
+        /* justify-content: center; */
+        margin-right: 150px;
+    }
+
+    .popup-form-heading h3 {
+        width: 217px;
+        line-height: 38px;
+        color: white;
+    }
+    .popup-form-heading h1 {
+        color: white;
+        font-size: 28px;
+    }
+
+
+    .main-form-contact-div {
+        width: 228px;
+        line-height: 32px;
+        color: white;
+    }
+
+    .contact-popup-form-div {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 0px;
+        /* line-height: 10px; */
+    }
+}

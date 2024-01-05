@@ -6,7 +6,7 @@ const Error = () =>
 {
   const navigate = useNavigate()
     return <div>
-      <section className="pageheader-section" style={{ backgroundImage: "url(/images/bgpages.jpg)" }}>
+      <section className="pageheader-section" style={{ backgroundImage: "url(/images/bgpages.webp)" }}>
   <div className="container">
     <div className="section-wrapper text-center text-uppercase">
       <h2 className="pageheader-title">error page</h2>
@@ -24,7 +24,7 @@ const Error = () =>
     <div className="section-wrapper">
       <div className="zero-item">
         <div className="zero-thumb">
-          <img src="/images/404.png" alt={404} />
+          <img src="/images/404.webp" alt={404} />
         </div>
         <div className="zero-content">
           <h2>Oops! This Page Not Found</h2>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './Home.css'
 import CasinoJackpots from "./CasinoJackpots";
 import RealtedGames from "./RealtedGames";
@@ -7,118 +7,63 @@ import FreeSpin from "./FreeSpin";
 import GameReview from "./GameReview";
 import { FaAngleRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import MainHomePage from "./MainHomePage";
 const Home = () =>
+
 {
+  const [counters, setCounters] = useState({
+    developers: 350,
+    projects: 1500,
+    expertise: 15,
+    countries: 75,
+  });
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCounters((prevCounters) => ({
+        ...prevCounters,
+        developers: prevCounters.developers + 1,
+        projects: prevCounters.projects + 1,
+        expertise: prevCounters.expertise + 1,
+        countries: prevCounters.countries + 1,
+      }));
+    }, 2000); // Change the interval (in milliseconds) as needed
+
+    // Cleanup the interval when the component is unmounted
+    return () => clearInterval(intervalId);
+  }, []); // Empty dependency array ensures the effect runs only once on mount
+
+
   const navigate =useNavigate()
-    return <div>
-       <section className="banner" >
-  <div className="container">
-    <div className="row g-0">
+    return <div className="container">
+      <div className="color-in" >
+    <div style={{display:"flex",gap:"20px"}}  >
       <div className="col-xl-6 col-lg-7 col-12">
-        <div className="banner__content">
-          <h3>the best website</h3>
+        <div style={{paddingTop:"150px"}}   className="banner__content">
+          <h3>most trusted website</h3>
           <h1>Online Casino</h1>
           <h2>Genuine Money Transaction</h2>
           <p>
-Welcome to our premier casino gaming platform! Dive into the excitement with our vast selection of 25 thrilling casino games. From classic favorites to modern twists, our website offers an immersive experience for every gaming enthusiast. Join us for a dynamic journey filled with entertainment, strategy, and the chance to win big!</p>
-          <a onClick={()=>navigate('/Contact')} href="" className="default-button"><span>join us today  <FaAngleRight /></span> </a>
+Dive into the excitement with our vast selection of 25 thrilling casino games. From classic favorites to modern twists, our website offers an immersive experience for every gaming enthusiast. Join us for a dynamic journey filled with entertainment, strategy, and the chance to win big!</p>
+          <a onClick={()=>navigate('/Contact')} href="" target="blank" className="default-button"><span> CONTACT   <FaAngleRight /></span> </a>
         </div>
       </div>
-    </div>
-  </div>
-        </section>
-      <section className="counter">
-  <div className="container">
-    <div className="counter__area">
-      <div className="row align-items-center">
-        <div className="col-lg-5 counter__left">
-          <div>
-            <h2>TODAY YOU CAN WIN UPTO</h2>
-          </div>
-        </div>
-        <div className="col-lg-7 col-12 text-center counter__right">
-          <ul className="d-flex flex-wrap">
-            <li className="counter-text border-count counter-after">
-              <h3 className="m-0">₹</h3>
-            </li>
-            <li className="counter-text border-count counter-after">
-              <h3 className="m-0" >65</h3>
-                  </li>
-                  <li className="counter-text border-count counter-after">
-              <h3 className="m-0" >00</h3>
-            </li>
-            <li className="counter-text border-count counter-after">
-              <h3 className="m-0" >00</h3>
-                  </li>
-                  <li className="counter-text border-count counter-after">
-              <h3 className="m-0" >00</h3>
-            </li>
-          </ul>
-        </div>
+      <div>
+        <img style={{width:"100vh",marginTop:"120px"}} src="/images/_316bfa09-8fc2-4b8f-bb84-3c7d45bdd52b-removebg-preview.webp" alt="" />
       </div>
     </div>
-  </div>
-</section>
+    </div>
+ 
 
-{/* <section className="collection-section padding-top padding-bottom">
-  <div className="container">
-    <div className="section-header">
-      <h2>welcome to casino</h2>
-    </div>
-    <div className="section-wrapper game">
-      <div className="row g-4 justify-content-center">
-        <div className="col-lg-4 col-sm-6 col-12">
-          <div className="game__item item-layer">
-            <div className="game__inner text-center">
-              <div className="game__thumb">
-                      <img src="/images/taash-transformed.jpeg" alt="game-img" />
-                     
-              </div>
-              <div className="game__content">
-                <h4><a href="team-single.html">Advice And Guide</a> </h4>
-                <p>Holisticly underwhe fully researched deliverables for revoluonary sourcess skills and technically sound</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6 col-12">
-          <div className="game__item item-layer">
-            <div className="game__inner text-center">
-              <div className="game__thumb">
-                      <img src="/images/spin.jpg" alt="game-img" />
-                      
-              </div>
-              <div className="game__content">
-                <h4><a href="team-single.html">Great Solutions</a> </h4>
-                <p>Holisticly underwhe fully researched deliverables for revoluonary sourcess skills and technically sound</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6 col-12">
-          <div className="game__item item-layer">
-            <div className="game__inner text-center">
-              <div className="game__thumb">
-                      <img src="/images/slider_ludo2.jpg" alt="game-img" />
-                    
-              </div>
-              <div className="game__content">
-                <h4><a href="team-single.html">Support in Person</a> </h4>
-                <p>Holisticly underwhe fully researched deliverables for revoluonary sourcess skills and technically sound</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> */}
+
+
+<div><MainHomePage/></div>
         <div>
             <RealtedGames/>
-        </div>
       <div>
     <CasinoJackpots/>
 </div>
+        </div>
       <div>
         <FreeSpin/>
       </div>
@@ -132,3 +77,9 @@ Welcome to our premier casino gaming platform! Dive into the excitement with our
 };
 
 export default Home;
+
+
+
+
+ 
+ 
