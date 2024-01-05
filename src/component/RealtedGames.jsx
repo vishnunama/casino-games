@@ -116,7 +116,8 @@ const RealtedGames = () =>
                   <div className="game__inner text-center">
                     <div className="game__thumb">
                       <img className="image-container"
-                        src="/images/images__user___1_-removebg-preview.webp"
+                        style={{borderRadius:"60px"}}
+                        src="/images/_88e1128b-0858-41b5-88ea-ac01a5e493d1.webp"
                         alt="game-img"
                       />
                     </div>
@@ -140,8 +141,8 @@ const RealtedGames = () =>
                 <div className="game__item item-layer">
                   <div className="game__inner text-center">
                     <div className="game__thumb">
-                      <img className="image-container"
-                        src="/images/images__12_-removebg-preview.webp"
+                      <img style={{borderRadius:"60px"}} className="image-container"
+                        src="/images/_e2e7bcf4-2e86-45a4-bb8c-c2cef4fcf230.webp"
                         alt="game-img"
                       />
                     </div>
@@ -164,7 +165,8 @@ const RealtedGames = () =>
                   <div className="game__inner text-center">
                     <div className="game__thumb">
                       <img className="image-container"
-                        src="/images/images-removebg-preview (1).webp"
+                      style={{borderRadius:"60px"}}
+                        src="/images/_5cd0e1fb-1425-414b-8c65-149ddc5f0388.webp"
                         alt="game-img"
                       />
                     </div>

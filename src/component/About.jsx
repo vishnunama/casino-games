@@ -42,7 +42,7 @@ const About = () => {
                 <div className="col-lg-6 col-12">
                 <div className="testimonial__thumb position-relative">
                   {/* <img style={{width:"650px"}}  src="/images/trophy_cleanup.jpg" alt="testimonial" /> */}
-                  <iframe style={{maxWidth:"100%"}} className="car-video-in" src="https://www.youtube.com/embed/g5eQgEuiFC8" data-rel="lightcase">
+                  <iframe  className="car-video-in" src="https://www.youtube.com/embed/g5eQgEuiFC8" data-rel="lightcase">
                    
                     <span className="pluse" />
                   </iframe>

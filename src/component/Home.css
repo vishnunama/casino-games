@@ -27611,16 +27611,13 @@ button.swiper-pagination-bullet {
     backface-visibility: hidden
 }
 
-.swiper-container-coverflow .swiper-wrapper {
-    -ms-perspective: 1200px
-}
+
 
 /*# sourceMappingURL=style.min.css.map */
 
 .col-lg-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
-    max-width: 100%
 }
 .vdoCntLstCount{
     font-size: 30px;
@@ -27633,13 +27630,14 @@ button.swiper-pagination-bullet {
 .vdoCntLst{
 background-color: #010023;
 /* width: 10%; */
-
+border: 1px solid #1F1E1E;
+border-radius: 10px;
 }
 .vdoCntLstTlt{
     font-size: 20px;
     text-align: center;
     padding: 0px 10px;
-    width: 100%;
+    max-width: 100%;
 }
 
 @media(max-width: 768px) {

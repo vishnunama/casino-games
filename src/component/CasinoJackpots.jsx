@@ -122,7 +122,7 @@ const CasinoJackpots = () => {
                             <div className="game__inner text-center p-0">
                               <div className="game__thumb mb-0">
                                 <img
-                                  src="/images/logo for a poker w poker chips playing cards.webp"
+                                  src="/images/_84dc39c8-b5a0-41ed-91d7-d0c54dfde9f1.webp"
                                   alt="game-img"
                                   className="rounded-3 w-100"
                                 />
@@ -150,7 +150,7 @@ const CasinoJackpots = () => {
                                 />
                               </div>
                               <div className="game__overlay">
-                                <h4>Call Break games</h4>
+                                <h4>Poker games</h4>
                                 
                                 <a href="#" className="default-button">
                                   <span>

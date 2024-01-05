@@ -145,7 +145,7 @@ const Footer = () =>
                           <div className="lab-thumb">
                             <a href="#">
                               <img
-                                src="/images/images (13).webp"
+                                src="/images/_a49c1924-7784-4b61-9767-8b6775a6d578.webp"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
