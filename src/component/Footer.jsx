@@ -17,11 +17,14 @@ const Footer = () =>
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
+                    
                     <div className="lab-thumb">
-                      <img src="/images/phoneicon.webp" alt="Phone-icon" />
+                      <a href="tel:+91 98282 84421">
+                      <img  src="/images/phoneicon.webp" alt="Phone-icon" />
+                      </a>
                     </div>
                     <div className="lab-content">
-                      <span> <a href="tel:+91 98282 84421">Phone Number  +91 98282 84421</a>
+                      <span> <a href="tel:+91 98282 84421"> Phone Number  +91 98282 84421  </a> 
 </span>
                     </div>
                   </div>
@@ -31,10 +34,13 @@ const Footer = () =>
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
                     <div className="lab-thumb">
-                      <img src="/images/02_1.webp" alt="email-icon" />
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRZTXxrPQbjtNmLMMBstDLGLCNbCDHFqjXkPNHQZZKzglWBqvnkfzMTJrFPWlvfdpDzJv">
+                      <img src="/images/02_1.webp" alt="email-icon" /> </a>
                     </div>
                     <div className="lab-content">
+                      <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRZTXxrPQbjtNmLMMBstDLGLCNbCDHFqjXkPNHQZZKzglWBqvnkfzMTJrFPWlvfdpDzJv" target="blank">
                       <span>Email : metablock@gmail.com</span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -43,10 +49,12 @@ const Footer = () =>
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
                     <div className="lab-thumb">
+                      <a href="https://www.google.com/maps/place/Tamanna+Apartment/@26.8949515,75.7489926,15.17z/data=!4m6!3m5!1s0x396db566ba42c1ed:0xce00513b5fd69b04!8m2!3d26.8942671!4d75.7655693!16s%2Fg%2F11h39zw_sb?entry=ttu">
                       <img src="/images/03_1.webp" alt="location-icon" />
+                      </a>
                     </div>
                     <div className="lab-content">
-                      <span>Address : Jaipur Rajashtan India</span>
+                      <span> <a href="https://www.google.com/maps/place/Tamanna+Apartment/@26.8949515,75.7489926,15.17z/data=!4m6!3m5!1s0x396db566ba42c1ed:0xce00513b5fd69b04!8m2!3d26.8942671!4d75.7655693!16s%2Fg%2F11h39zw_sb?entry=ttu">Address : Jaipur Rajashtan India </a> </span>
                     </div>
                   </div>
                 </div>
@@ -200,7 +208,7 @@ const Footer = () =>
                             placeholder="Your Email"
                           />
                         </div> */}
-                        <button style={{marginTop:"15px"}}   className="default-button">
+                        <button style={{marginTop:"15px",marginBottom:"20px"}}   className="default-button">
                           <span   onClick={()=>navigate('/AllGames')}>
                            ALL Games <FaAngleRight />
                           </span>

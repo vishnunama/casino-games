@@ -22671,8 +22671,8 @@ ul li {
 }
 
 .pageheader-section {
-    padding: 150px 0;
-    padding-top: calc(150px + 147px);
+    /* padding: 150px 0;
+    padding-top: calc(150px + 147px); */
     background-size: cover;
     background-position: center
 }

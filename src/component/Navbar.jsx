@@ -70,7 +70,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="https://web.telegram.org/k/"
+                        href="https://wa.me/919358593003"
                         target="blank"
 
                         className="vimeo"
@@ -98,8 +98,8 @@ const Navbar = () => {
               <div style={{height:"105px",lineHeight:"1px"}} className="header-bottom">
                 <div className="header-wrapper justify-content-lg-end">
                   <div className="mobile-logo d-lg-none">
-                    <a href="index.html">
-                      <img src="images/logo (123).webp" alt="logo" />
+                    <a style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
+                      <img  src="images/logo (123).webp" alt="logo" />
                     </a>
                   </div>
                   <div  className="menu-area">

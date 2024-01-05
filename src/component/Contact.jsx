@@ -39,8 +39,8 @@ const Contact = () =>
               <div style={{display:"flex"}} className="form-div-popup-container">
                 
                 <div className="main-popup-form">
-                  <div className="main-popup-form-inputs">
-                    <input type="text" placeholder="First name" />
+                  <div  className="main-popup-form-inputs">
+                    <input  type="text" placeholder="First name" />
                     <input type="text" placeholder="Last name " />
                   </div>
                   <div className="main-popup-form-inputs1">

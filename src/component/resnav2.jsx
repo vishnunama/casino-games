@@ -33,8 +33,8 @@ export default function SwipeableTemporaryDrawer2() {
    
     <a href="https://www.facebook.com/metablocktechnologies" target="blank"  style={{paddingRight:"30px", color:"white"}}><FaFacebook key="facebook" /></a>,
     <a href="https://www.instagram.com/" target="blank" style={{paddingRight:"30px", color:"white"}}><FaInstagram key="instagram" /></a>,
-    <a href="https://www.jobhai.com/hire/candidate-listing?job_id=2982405"  style={{paddingRight:"30px", color:"white"}}><FaWhatsapp key="telegram" /></a>,
-    <a href="https://www.linkedin.com/company/metablocktechnologies/mycompany/"  style={{paddingRight:"30px", color:"white"}}><FaLinkedin key="linkdin" /></a>,
+    <a href="https://wa.me/919358593003" target='blank'  style={{paddingRight:"30px", color:"white"}}><FaWhatsapp key="telegram" /></a>,
+    <a href="https://www.linkedin.com/company/metablocktechnologies/mycompany/" target='blank'  style={{paddingRight:"30px", color:"white"}}><FaLinkedin key="linkdin" /></a>,
    
   ];
 
