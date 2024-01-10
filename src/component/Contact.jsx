@@ -6,11 +6,11 @@ const Contact = () =>
   const navigate = useNavigate()
   return (
    <div>
-  {/* <section className="pageheader-section" style={{backgroundImage: 'url(/images/backgroundimage.webp)'}}>
+  <section className="pageheader-section" style={{backgroundImage: 'url(/images/backgroundimage.webp)'}}>
     <div className="container">
       <div  className="section-wrapper text-center text-uppercase">
         <h2   className="pageheader-title">Contact Us</h2>
-        <nav aria-label="breadcrumb">
+        {/* <nav aria-label="breadcrumb">
           <ol className="breadcrumb justify-content-center mb-0">
           <li className="breadcrumb-item">
                   <a
@@ -22,10 +22,10 @@ const Contact = () =>
                 </li>
             <li className="breadcrumb-item active" aria-current="page">Contact</li>
           </ol>
-        </nav>
+        </nav> */}
       </div>
     </div>
-  </section>  */}
+  </section> 
   <div>
      <div className="main-form-popup">
               {/* <div className="img-div">

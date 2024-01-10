@@ -27653,6 +27653,7 @@ button.swiper-pagination-bullet {
 .main-form-popup {
     display: flex;
     flex-direction: row;
+    /* padding-top: 120px; */
    
 
 }

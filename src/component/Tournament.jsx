@@ -69,7 +69,7 @@ const Tournament = () => {
         <div className="container">
           <div className="section-wrapper text-center text-uppercase">
             <h2 className="pageheader-title">Our Rummy Tournament</h2>
-            <nav aria-label="breadcrumb">
+            {/* <nav aria-label="breadcrumb">
               <ol className="breadcrumb justify-content-center mb-0">
                 <li className="breadcrumb-item">
                   <a
@@ -83,7 +83,7 @@ const Tournament = () => {
                   Tournament
                 </li>
               </ol>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </section>

@@ -13,6 +13,7 @@ import Contact from './component/Contact';
 import TermsAndConditions from './component/Terms&Conditions';
 import PrivacyPolicy from './component/PrivacyPolicy';
 import RefundAndCancellation from './component/RefundAndCancellation';
+import { ScrollToTop } from './component/ScrollToTop';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
     <>
     <ScrollToTopButton/>
     <Router>
+      {/* <ScrollToTop/> */}
       <Navbar />
      
 

@@ -145,14 +145,7 @@ const AllGames = () => {
         <div className="container">
           <div className="section-wrapper text-center text-uppercase">
             <h2 className="pageheader-title">Our ALL Games </h2>
-            <nav aria-label="breadcrumb">
-              <ol className="breadcrumb justify-content-center mb-0">
-              <li className="breadcrumb-item"><a style={{cursor:"pointer"}} onClick={()=>navigate('/')}>Home</a></li>
-                <li className="breadcrumb-item active" aria-current="page">
-                  matches {/* Corrected typo */}
-                </li>
-              </ol>
-            </nav>
+            
           </div>
         </div>
       </section>

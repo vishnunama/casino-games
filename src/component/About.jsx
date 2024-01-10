@@ -15,7 +15,7 @@ const About = () => {
         <div className="container">
           <div className="section-wrapper text-center text-uppercase">
             <h2 className="pageheader-title">About</h2>
-            <nav aria-label="breadcrumb">
+            {/* <nav aria-label="breadcrumb">
               <ol className="breadcrumb justify-content-center mb-0">
                 <li className="breadcrumb-item">
                   <a
@@ -30,7 +30,7 @@ const About = () => {
                   About Us
                 </li>
               </ol>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </section>
