@@ -232,9 +232,9 @@ const Footer = () => {
             <div className="row">
               <div className="col-12">
                 <div className="footer-bottom-content text-center d-flex flex-column align-items-center">
-                  {/* <p>
-            ©2023 <a href="index.html">Casina</a> - All Rights Reserved.
-          </p> */}
+                  <p>
+            © {new Date().getFullYear()} <a href="index.html">Casina</a> - All Rights Reserved.
+          </p>
                   <ul
                     className="footer-container"
                     style={{
