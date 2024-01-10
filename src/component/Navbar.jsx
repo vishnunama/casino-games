@@ -83,6 +83,7 @@ const Navbar = () => {
                         href="https://www.linkedin.com/company/metablocktechnologies/mycompany/"
                         target="blank"
                         className="skype"
+                        style={{paddingRight:"17px"}}
                       >
                         <FaLinkedin />
                       </a>
