@@ -6,7 +6,7 @@ const Contact = () =>
   const navigate = useNavigate()
   return (
    <div>
-  <section className="pageheader-section" style={{backgroundImage: 'url(/images/backgroundimage.webp)'}}>
+  {/* <section className="pageheader-section" style={{backgroundImage: 'url(/images/backgroundimage.webp)'}}>
     <div className="container">
       <div  className="section-wrapper text-center text-uppercase">
         <h2   className="pageheader-title">Contact Us</h2>
@@ -25,7 +25,7 @@ const Contact = () =>
         </nav>
       </div>
     </div>
-  </section> 
+  </section>  */}
   <div>
      <div className="main-form-popup">
               {/* <div className="img-div">

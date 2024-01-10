@@ -61,7 +61,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/"
+                        href="https://www.instagram.com/metablocktechnologies1/?hl=en"
                         target="blank"
                         className="twitter"
                       >
@@ -106,7 +106,7 @@ const Navbar = () => {
                   <div  className="menu-area">
                     <ul  className="menu">
                       <li>
-                        <a
+                        <a target="blank"
                           style={{ cursor: "pointer" }}
                           onClick={() => navigate("/")}
                         >
@@ -115,6 +115,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
+                        
                           style={{ cursor: "pointer" }}
                           onClick={() => navigate("/About")}
                         >
