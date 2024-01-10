@@ -23521,14 +23521,14 @@ button {
 }
 
 .testimonial-item:last-child .testimonial-inner .testimonial-footer ul li {
-    background: #f06a22;
+    background: #00B67A !important;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
-    border-radius: 100%
+    border-radius: 2px !important; 
 }
 
 .testimonial-item:last-child .testimonial-inner .testimonial-footer h5 {
-    color: #f06a22
+    color: #00B67A !important;
 }
 
 .testimonial-item .testimonial-inner {

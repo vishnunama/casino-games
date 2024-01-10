@@ -2,14 +2,19 @@ import React from "react";
 import "./Footer.css";
 import { FaAngleRight, FaStar } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
-const Footer = () =>
-{
-  const navigate = useNavigate()
+
+const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div>
-      <footer 
+      <footer
         className="footer-section"
-        style={{ backgroundImage: "url(assets/images/footer/bg.webp)"}}
+        style={{ backgroundImage: "url(assets/images/footer/bg.webp)" }}
       >
         <div style={{paddingBottom:"1px"}} className="footer-top">
           <div className="container">
@@ -34,12 +39,12 @@ const Footer = () =>
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
                     <div className="lab-thumb">
-                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRZTXxrPQbjtNmLMMBstDLGLCNbCDHFqjXkPNHQZZKzglWBqvnkfzMTJrFPWlvfdpDzJv">
+                    <a href="mailto:metablock108@gmail.com" target="blank">
                       <img src="/images/02_1.webp" alt="email-icon" /> </a>
                     </div>
                     <div className="lab-content">
-                      <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRZTXxrPQbjtNmLMMBstDLGLCNbCDHFqjXkPNHQZZKzglWBqvnkfzMTJrFPWlvfdpDzJv" target="blank">
-                      <span>Email : metablock@gmail.com</span>
+                      <a href="mailto:metablock108@gmail.com" target="blank">
+                      <span>Email : metablock108@gmail.com</span>
                       </a>
                     </div>
                   </div>
@@ -49,12 +54,12 @@ const Footer = () =>
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
                     <div className="lab-thumb">
-                      <a href="https://www.google.com/maps/place/Tamanna+Apartment/@26.8949515,75.7489926,15.17z/data=!4m6!3m5!1s0x396db566ba42c1ed:0xce00513b5fd69b04!8m2!3d26.8942671!4d75.7655693!16s%2Fg%2F11h39zw_sb?entry=ttu">
+                      <a href="https://www.google.com/maps/place/Tamanna+Apartment/@26.8949515,75.7489926,15.17z/data=!4m6!3m5!1s0x396db566ba42c1ed:0xce00513b5fd69b04!8m2!3d26.8942671!4d75.7655693!16s%2Fg%2F11h39zw_sb?entry=ttu" target="blank">
                       <img src="/images/03_1.webp" alt="location-icon" />
                       </a>
                     </div>
                     <div className="lab-content">
-                      <span> <a href="https://www.google.com/maps/place/Tamanna+Apartment/@26.8949515,75.7489926,15.17z/data=!4m6!3m5!1s0x396db566ba42c1ed:0xce00513b5fd69b04!8m2!3d26.8942671!4d75.7655693!16s%2Fg%2F11h39zw_sb?entry=ttu">Address : Jaipur Rajashtan India </a> </span>
+                      <span> <a href="https://www.google.com/maps/place/Tamanna+Apartment/@26.8949515,75.7489926,15.17z/data=!4m6!3m5!1s0x396db566ba42c1ed:0xce00513b5fd69b04!8m2!3d26.8942671!4d75.7655693!16s%2Fg%2F11h39zw_sb?entry=ttu" target="blank">Address : Jaipur Rajashtan India </a> </span>
                     </div>
                   </div>
                 </div>
@@ -69,7 +74,7 @@ const Footer = () =>
                 <div className="footer-middle-item-wrapper">
                   <div className="footer-middle-item mb-lg-0">
                     <div className="fm-item-title mb-4">
-                      <img style={{width:"250px"}} src="images/logo (123).webp" alt="logo" />
+                      <img style={{width:"250px"}} src="images/WhatsApp_Image_2024-01-09_at_18.14.16_c401108b-removebg-preview.webp" alt="logo" />
                     </div>
                     <div className="fm-item-content">
                       <p className="mb-4">
@@ -101,7 +106,7 @@ const Footer = () =>
                             <a href="#">
                               {" "}
                               <img
-                                src="/images/download (2).webp"
+                                src="/images/_2e76f90b-26f8-49f8-878d-2a36f096f391.webp"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
@@ -127,7 +132,7 @@ const Footer = () =>
                           <div className="lab-thumb">
                             <a href="#">
                               <img
-                                src="/images/download (1).webp"
+                                src="/images/_f1f8a7d6-7fc1-4576-a84b-4645d1a13427.webp"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
@@ -208,8 +213,8 @@ const Footer = () =>
                             placeholder="Your Email"
                           />
                         </div> */}
-                        <button style={{marginTop:"15px",marginBottom:"20px"}}   className="default-button">
-                          <span   onClick={()=>navigate('/AllGames')}>
+                        <button onClick={handleScrollToTop} style={{marginTop:"15px",marginBottom:"20px"}}   className="default-button">
+                          <span   onClick={()=>navigate('/AllGames')}  >
                            ALL Games <FaAngleRight />
                           </span>
                         </button>
@@ -221,33 +226,41 @@ const Footer = () =>
             </div>
           </div>
         </div>
-      <div className="footer-bottom" style={{ maxWidth: "100%", margin: "0 auto" }}>
-  <div className="container">
-    <div className="row">
-      <div className="col-12">
-        <div className="footer-bottom-content text-center d-flex flex-column align-items-center">
-          <p>
-            ©2023 <a href="index.html">Casina</a> - All Rights Reserved.
-          </p>
-          <ul className="footer-container" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "2rem" }}>
-            <li><Link to="terms_and_conditions">Terms And Conditions</Link></li>
-            <li><Link to="Contact">Contact us</Link></li>
-            <li><Link to="privacy_policy">Privacy Policy</Link></li>
-            <li><Link to="Refund_and_cancellation_policy">Refund And Cancellation</Link></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
+        <div className="footer-bottom" style={{ maxWidth: "100%", margin: "0 auto" }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div className="footer-bottom-content text-center d-flex flex-column align-items-center">
+                  {/* <p>
+            ©2023 <a href="index.html">Casina</a> - All Rights Reserved.
+          </p> */}
+                  <ul
+                    className="footer-container"
+                    style={{
+                      display: "flex",
+                      flexWrap: "wrap",
+                      justifyContent: "center",
+                      gap: "2rem",
+                    }}
+                  >
+                    <li><Link to="terms_and_conditions" target="blank" onClick={handleScrollToTop}>Terms And Conditions</Link></li>
+                    <li><Link to="Contact" target="blank" onClick={handleScrollToTop}>Contact us</Link></li>
+                    <li>
+                      <Link to="privacy_policy" target="blank" onClick={handleScrollToTop}>
+                        Privacy Policy
+                      </Link>
+                    </li>
+                    <li><Link to="Refund_and_cancellation_policy" target="blank" onClick={handleScrollToTop}>Refund And Cancellation</Link></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
   );
 };
 
 export default Footer;
-
-
-
-  

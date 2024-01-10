@@ -20060,6 +20060,7 @@ img {
     }
     .image-container-in{
         width: 70%;
+        border-radius: 5px;
     }
 }
 
@@ -23602,6 +23603,9 @@ button {
 }
 
 .testimonial-item .testimonial-inner .testimonial-footer ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 3px 7px;
     background: #00b67a;
     -webkit-border-radius: 3px;

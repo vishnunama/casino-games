@@ -2,7 +2,7 @@ import React from 'react'
 const TermsAndConditions = () => {
   return (
    <div>
-  <section className="pageheader-section" style={{backgroundImage: 'url(/images/bgpages.jpg)'}}>
+  {/* <section className="pageheader-section" style={{backgroundImage: 'url(/images/bgpages.jpg)'}}>
     <div className="container">
       <div className="section-wrapper text-center text-uppercase">
         <h2 className="pageheader-title">Terms And Conditions</h2>
@@ -14,8 +14,8 @@ const TermsAndConditions = () => {
         </nav>
       </div>
     </div>
-  </section>  
-  <div className="info-section padding-top padding-bottom">
+  </section>   */}
+  <div  className="info-section padding-top padding-bottom">
     <div className="container">
       <div className="section-header">
         <h2>Terms And Conditions</h2>

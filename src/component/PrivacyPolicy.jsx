@@ -2,7 +2,7 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <div>
-      <section
+      {/* <section
         className="pageheader-section"
         style={{ backgroundImage: "url(/images/bgpages.jpg)" }}
       >
@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
             </nav>
           </div>
         </div>
-      </section>
+      </section> */}
       <div className="info-section padding-top padding-bottom">
         <div className="container">
           <div className="section-header">

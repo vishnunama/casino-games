@@ -1,6 +1,9 @@
 import React from "react";
 import './GameReview.css'
-import { FaPlay, FaStar } from 'react-icons/fa';
+import { FaPlay, FaStar, FaStarHalfAlt } from 'react-icons/fa';
+import { FaRegStarHalfStroke } from "react-icons/fa6";
+
+// import StarIcon from '@mui/icons-material/Star';
 const GameReview = () => {
   return (
     <div>
@@ -34,7 +37,7 @@ const GameReview = () => {
                       <div className="testimonial-item">
                         <div className="testimonial-inner">
                           <div style={{ padding: "10px" }} className="testimonial-head">
-                            <div className="testi-top">
+                            <div style={{paddingBottom:"10px"}}  className="testi-top">
                               <div className="testimonial-thumb">
                                 <img src="/images/images (17).webp" alt="testimonial" />
                               </div>
@@ -44,12 +47,12 @@ const GameReview = () => {
                               </div>
                             </div>
                             <div className="testimonial-footer">
-                              <ul>
+                              <ul >
                                 <li><FaStar /></li>
                                 <li><FaStar /></li>
                                 <li><FaStar /></li>
                                 <li><FaStar /></li>
-                                {/* <li><FaStar /></li> */}
+                                <li><FaStarHalfAlt/></li>
 
                               </ul>
                               <h5>4.5</h5>
@@ -63,7 +66,7 @@ const GameReview = () => {
                       <div className="testimonial-item">
                         <div className="testimonial-inner">
                           <div className="testimonial-head">
-                            <div className="testi-top">
+                            <div style={{paddingBottom:"10px"}}  className="testi-top">
                               <div className="testimonial-thumb">
                                 <img src="/images/images (16).webp" alt="testimonial" />
                               </div>
@@ -74,11 +77,11 @@ const GameReview = () => {
                             </div>
                             <div className="testimonial-footer">
                               <ul>
+                                 <li><FaStar /></li>
                                 <li><FaStar /></li>
                                 <li><FaStar /></li>
                                 <li><FaStar /></li>
-                                <li><FaStar /></li>
-                                {/* <li><FaStar /></li> */}
+                                <li><FaStarHalfAlt/></li>
                               </ul>
                               <h5>4.5</h5>
                             </div>

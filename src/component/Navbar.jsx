@@ -30,7 +30,7 @@ const Navbar = () => {
             <div   className="brand-logo d-none d-lg-inline-block">
               <div className="logo">
                <a style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
-                  <img src="images/logo (123).webp" style={{width:"120px",marginBottom:"35px"}} alt="logo" />
+                  <img  src="images/WhatsApp_Image_2024-01-09_at_18.14.16_c401108b-removebg-preview.webp" style={{width:"180px",marginBottom:"35px"}} alt="logo" />
                 </a> 
               
                 
@@ -98,8 +98,8 @@ const Navbar = () => {
               <div style={{height:"105px",lineHeight:"1px"}} className="header-bottom">
                 <div className="header-wrapper justify-content-lg-end">
                   <div className="mobile-logo d-lg-none">
-                    <a style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
-                      <img  src="images/logo (123).webp" alt="logo" />
+                    <a style={{ cursor: "pointer",width:"150px" }} onClick={() => navigate("/")}>
+                      <img  src="images/WhatsApp_Image_2024-01-09_at_18.14.16_c401108b-removebg-preview.webp" alt="logo" />
                     </a>
                   </div>
                   <div  className="menu-area">

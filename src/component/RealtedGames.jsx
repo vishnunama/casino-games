@@ -7,7 +7,7 @@ const RealtedGames = () =>
   const navigate = useNavigate()
     return (
       <div>
-         <div  className="game-section overflow-hidden" style={{backgroundImage: 'url(assets/images/match/bg.webp)',paddingTop:"80px", paddingBottom:"1px"}}>
+         <div  className="game-section overflow-hidden" style={{backgroundImage: 'url(assets/images/match/bg.webp)',paddingTop:"20px", paddingBottom:"1px"}}>
     <div className="container">
       <div className="section-header">
         <h2>OUR POPULAR GAMES</h2>
@@ -131,8 +131,8 @@ const RealtedGames = () =>
                         seamless interaction. Ensure responsiveness for optimal
                         usability across various devices.
                       </p>
-          <button onClick={()=>navigate('/Contact')} href="" className="default-button"><span>join us today  <FaAngleRight /></span> </button>
 
+          <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}  className="default-button"><span> All Games <FaAngleRight /></span> </a>
                     </div>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ const RealtedGames = () =>
                         popular variations to suit varied player preferences and
                         interests.
                       </p>
-          <button onClick={()=>navigate('/Contact')} href="" className="default-button"><span>join us today  <FaAngleRight /></span> </button>
+          <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}  className="default-button"><span> All Games  <FaAngleRight /></span> </a>
 
                     </div>
                   </div>
@@ -180,8 +180,7 @@ const RealtedGames = () =>
                         trustworthy gaming environment. Employ certified RNGs to
                         ensure fairness in gameplay.
                       </p>
-          <button onClick={()=>navigate('/Contact')} href="" className="default-button"><span>join us today  <FaAngleRight /></span> </button>
-
+                         <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}  className="default-button"><span> All Games <FaAngleRight /></span> </a>
                     </div>
                   </div>
                 </div>
@@ -190,7 +189,9 @@ const RealtedGames = () =>
           </div>
       
         </div>
+        
       </section>
+
 </div>
 
   );

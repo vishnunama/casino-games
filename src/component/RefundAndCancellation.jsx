@@ -2,7 +2,7 @@ import React from 'react'
 const RefundAndCancellation = () => {
   return (
    <div>
-  <section className="pageheader-section" style={{backgroundImage: 'url(/images/bgpages.jpg)'}}>
+  {/* <section className="pageheader-section" style={{backgroundImage: 'url(/images/bgpages.jpg)'}}>
     <div className="container">
       <div className="section-wrapper text-center text-uppercase">
         <h2 className="pageheader-title">Refund And Cancellation</h2>
@@ -14,7 +14,7 @@ const RefundAndCancellation = () => {
         </nav>
       </div>
     </div>
-  </section>  
+  </section>   */}
   <div className="info-section padding-top padding-bottom">
     <div className="container">
       <div className="section-header">

@@ -45,7 +45,7 @@ const Home = () =>
           <h2>Genuine Money Transaction</h2>
           <p>
 Dive into the excitement with our vast selection of 25 thrilling casino games. From classic favorites to modern twists, our website offers an immersive experience for every gaming enthusiast. Join us for a dynamic journey filled with entertainment, strategy, and the chance to win big!</p>
-          <a onClick={()=>navigate('/Contact')}  className="default-button"><span> CONTACT   <FaAngleRight /></span> </a>
+          <a onClick={() => { navigate('/Contact'); window.scrollTo(0, 0); }}  className="default-button"><span> CONTACT   <FaAngleRight /></span> </a>
         </div>
       </div>
       <div>
