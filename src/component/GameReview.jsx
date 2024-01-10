@@ -46,8 +46,8 @@ const GameReview = () => {
                                 <p>Gamer</p>
                               </div>
                             </div>
-                            <div className="testimonial-footer">
-                              <ul >
+                            <div style={{paddingRight:"20px"}} className="testimonial-footer">
+                              <ul  >
                                 <li><FaStar /></li>
                                 <li><FaStar /></li>
                                 <li><FaStar /></li>
@@ -75,7 +75,7 @@ const GameReview = () => {
                                 <p>Gamer</p>
                               </div>
                             </div>
-                            <div className="testimonial-footer">
+                            <div style={{paddingRight:"25px"}} className="testimonial-footer">
                               <ul>
                                  <li><FaStar /></li>
                                 <li><FaStar /></li>
