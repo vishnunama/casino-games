@@ -213,7 +213,7 @@ const Footer = () => {
                             placeholder="Your Email"
                           />
                         </div> */}
-                        <button onClick={handleScrollToTop} style={{marginTop:"15px",marginBottom:"20px"}}   className="default-button">
+                        <button  style={{marginTop:"15px",marginBottom:"20px"}}   className="default-button">
                           <span   onClick={()=>navigate('/AllGames')}  >
                            ALL Games <FaAngleRight />
                           </span>
@@ -244,14 +244,14 @@ const Footer = () => {
                       gap: "2rem",
                     }}
                   >
-                    <li><Link to="terms_and_conditions" target="blank" onClick={handleScrollToTop}>Terms And Conditions</Link></li>
-                    <li><Link to="Contact" target="blank" onClick={handleScrollToTop}>Contact us</Link></li>
+                    <li><Link to="terms_and_conditions" target="blank" >Terms And Conditions</Link></li>
+                    <li><Link to="Contact" target="blank" >Contact us</Link></li>
                     <li>
-                      <Link to="privacy_policy" target="blank" onClick={handleScrollToTop}>
+                      <Link to="privacy_policy" target="blank" >
                         Privacy Policy
                       </Link>
                     </li>
-                    <li><Link to="Refund_and_cancellation_policy" target="blank" onClick={handleScrollToTop}>Refund And Cancellation</Link></li>
+                    <li><Link to="Refund_and_cancellation_policy" target="blank">Refund And Cancellation</Link></li>
                   </ul>
                 </div>
               </div>

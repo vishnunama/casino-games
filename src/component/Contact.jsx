@@ -109,13 +109,13 @@ const Contact = () =>
           <div className="col-lg-4 col-sm-6 col-12">
             <div className="contact-item text-center">
               <div className="contact-thumb mb-4">
-                <a href="https://mail.google.com/mail/u/0/#inbox" target='blank'>
+                <a href="mailto:metablock108@gmail.com" target='blank'>
                 <img src="/images/02_1.webp" alt="contact-thumb" />
                 </a>
               </div>
               <div className="contact-content">
                 <h6 className="title">Send Email</h6>
-                <p>metablock@gmil.com</p>
+                <p>metablock108@gmil.com</p>
               </div>
             </div>
           </div>

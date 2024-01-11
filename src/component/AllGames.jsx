@@ -120,7 +120,7 @@ const gamesData = [
   {
     category: "collection-two",
     name: "Pool Rummy",
-    image: "/images/_e09eb14d-1f59-40a3-a753-0e3e6ae03981.webp",
+    image: "/images/_91c8e306-9ad8-47e8-bef8-96dce1b84d6e.webp",
   },
 ];
 

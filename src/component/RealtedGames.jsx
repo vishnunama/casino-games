@@ -94,7 +94,7 @@ const RealtedGames = () =>
         </div>
       </div>
       <div className=" text-center mt-4">
-      <a className="default-button reverse-effect" onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}>
+      <a className="default-button reverse-effect" onClick={() => { navigate('/AllGames') }}>
   <span>Browse All Games <FaAngleRight /></span>
 </a>
 
@@ -132,7 +132,7 @@ const RealtedGames = () =>
                         usability across various devices.
                       </p>
 
-          <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}  className="default-button"><span> All Games <FaAngleRight /></span> </a>
+          <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames') }}  className="default-button"><span> All Games <FaAngleRight /></span> </a>
                     </div>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ const RealtedGames = () =>
                         popular variations to suit varied player preferences and
                         interests.
                       </p>
-          <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}  className="default-button"><span> All Games  <FaAngleRight /></span> </a>
+          <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames');  }}  className="default-button"><span> All Games  <FaAngleRight /></span> </a>
 
                     </div>
                   </div>
@@ -180,7 +180,7 @@ const RealtedGames = () =>
                         trustworthy gaming environment. Employ certified RNGs to
                         ensure fairness in gameplay.
                       </p>
-                         <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}  className="default-button"><span> All Games <FaAngleRight /></span> </a>
+                         <a style={{cursor:"pointer"}} onClick={() => { navigate('/AllGames'); }}  className="default-button"><span> All Games <FaAngleRight /></span> </a>
                     </div>
                   </div>
                 </div>

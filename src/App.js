@@ -21,7 +21,7 @@ const App = () => {
     <>
     <ScrollToTopButton/>
     <Router>
-      {/* <ScrollToTop/> */}
+      <ScrollToTop/>
       <Navbar />
      
 
