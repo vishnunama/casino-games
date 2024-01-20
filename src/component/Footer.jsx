@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaAngleRight, FaStar } from "react-icons/fa";
+import { FaAngleRight, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 
 const Footer = () => {
@@ -103,7 +103,7 @@ const Footer = () => {
                       <div className="fm-item-widget lab-item">
                         <div className="lab-inner">
                           <div className="lab-thumb">
-                            <a href="#">
+                            <a >
                               {" "}
                               <img
                                 src="/images/_2e76f90b-26f8-49f8-878d-2a36f096f391.webp"
@@ -113,50 +113,53 @@ const Footer = () => {
                             </a>
                           </div>
                           <div className="lab-content">
-                            <a >
+                            <a style={{cursor:"pointer"}} onClick={()=>navigate("/AllGames")}>
                               <h6> Rummy Tourment</h6>
-                            </a>
+                              </a>
+                            
 
-                            <div className="rating">
+                            <div style={{paddingBottom:"5px"}} className="rating">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <FaStar />
+                                <FaStarHalfAlt/>
                             </div>
+                            <span style={{fontWeight:"bold"}}>4.5</span>
                           </div>
                         </div>
                       </div>
                       <div className="fm-item-widget lab-item">
                         <div className="lab-inner">
                           <div className="lab-thumb">
-                            <a href="#">
+                            
                               <img
                                 src="/images/_f1f8a7d6-7fc1-4576-a84b-4645d1a13427.webp"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
-                            </a>
+                            {/* </a> */}
                           </div>
                           <div className="lab-content">
-                            <a href="blog-single.html">
+                            <a style={{cursor:"pointer"}} onClick={()=>navigate("/AllGames")}>
                               <h6>3 Patti Game</h6>
                             </a>
 
-                            <div className="rating">
+                            <div style={{paddingBottom:"5px"}} className="rating">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <FaStar />
-                            </div>
+                                <FaStarHalfAlt/>
+                                                            </div>
+                                                               <span style={{fontWeight:"bold"}}>4.5</span>
                           </div>
                         </div>
                       </div>
                       <div className="fm-item-widget lab-item">
                         <div className="lab-inner">
                           <div className="lab-thumb">
-                            <a href="#">
+                            <a style={{cursor:"pointer"}} onClick={()=>navigate("/AllGames")}>
                               <img
                                 src="/images/_a49c1924-7784-4b61-9767-8b6775a6d578.webp"
                                 alt="footer-widget-img"
@@ -165,17 +168,18 @@ const Footer = () => {
                             </a>
                           </div>
                           <div className="lab-content">
-                            <a href="blog-single.html">
+                            <a style={{cursor:"pointer"}} onClick={()=>navigate("/AllGames")}>
                               <h6>Ludo Game</h6>
                             </a>
 
-                            <div className="rating">
+                            <div style={{paddingBottom:"5px"}} className="rating">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <FaStar />
+                                <FaStarHalfAlt/>
                             </div>
+                            <span style={{fontWeight:"bold"}}>4.5</span>
                           </div>
                         </div>
                       </div>
